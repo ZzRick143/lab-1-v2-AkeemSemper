@@ -66,23 +66,3 @@ def lab1Question6(quarters, dimes, nickels, pennies):
     total = None
     total = (quarters * 0.25) + (dimes * 0.10) + (nickels * 0.05) + (pennies * 0.01)
     return total
-
-## Example of calling a function to test these... 
-# Question 1 Check:
-in_gb = 20
-expected_bytes = 20*1024*1024*1024
-calculated_bytes = lab1Question1(in_gb)
-
-print("Input gigabytes: ", in_gb)
-print("Expected bytes: ", expected_bytes)
-print("Calculated bytes: ", calculated_bytes)
-if expected_bytes == calculated_bytes:
-    print("Test passed")
-else:
-    print("Test failed")
-
-# You can make similar tests to check if things work for you. 
-# This is kind of annoying, I am aware, but it is a really important skill in programming. 
-# Determining how to check if your code works, and define specific tests for what "working" means is 
-# something that allows you to tackele any larger problem - you can break it into smaller bits, attack one bit at a time,
-# check to ensure you've done it correctly, and then move on to the next bit.
