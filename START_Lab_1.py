@@ -1,6 +1,6 @@
 def lab1Question1(input_gb):
     # Convert the input of a number of gigabytes to the number of bytes
-    num_bytes = None
+    num_bytes = 0
     # Do the work here
     # The solution to this goes here (and in all of them below...)
     # Set the variable num_bytes to the answer and return it
@@ -66,3 +66,4 @@ def lab1Question6(quarters, dimes, nickels, pennies):
     total = None
     total = (quarters * 0.25) + (dimes * 0.10) + (nickels * 0.05) + (pennies * 0.01)
     return total
+ 
